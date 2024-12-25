@@ -19,6 +19,7 @@ shared_script {
 }
 
 server_scripts {
+    '@oxmysql/lib/MySQL.lua',
     'server/*.lua'
 }
 
